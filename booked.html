@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Here you will find contact information and a contact-sheet.">
+    <meta name="description" content="Confirmation on booking request.">
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/d753c6feaf.js" crossorigin="anonymous"></script>
-    <title>Contact - Community Science Museum</title>
+    <title>Booking - Community Science Museum</title>
 </head>
 <body>
     <header>
@@ -21,42 +21,26 @@
             <li class="logo">
                 <a href="index.html"><img src="images/inverted-open-science-735787.png" alt="museum logo"></a>
             </li>
-            <li><a href="index.html">
+            <li class="active"><a href="index.html">
                 <i class="fa solid fa-house"></i>Home <i class="fa-solid fa-angles-right"></i>
                 </a></li>
             <li><a href="exhibition.html">
                 <i class="fa solid fa-rocket"></i>Special Events <i class="fa-solid fa-angles-right"></i>
                 </a></li>
-            <li class="active"><a href="contact.html">
+            <li><a href="contact.html">
                 <i class="fa solid fa-phone"></i>Contact <i class="fa-solid fa-angles-right"></i>
                 </a></li>
             <li><a href="about.html">
                 <i class="fa solid fa-users"></i>About <i class="fa-solid fa-angles-right"></i>
                 </a></li>
         </ul>
-        <h1>Contact</h1>
-        <div class="contact-sheet">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="user_name">
-            <label for="mail">Email</label>
-            <input type="email" id="mail" name="user_email">
-            <label for="msg">Message</label>
-            <textarea id="msg" name="user_message"></textarea>
-            <a href="message.html">Send</a>
-        </div>
-        <div class="phone-mail">
-            <div>
-                <i class="fas fa-phone"></i>
-                <h4>Phone</h4>
-                <p>+47 XXX XX XXX</p>
-                <i class="fas fa-copy"></i>
+        <h1>Booking</h1>
+        <div class="message">
+            <span class="loader"></span>
+            <div class="success2">
+                <i class="fas fa-check"></i>
             </div>
-            <div>
-                <i class="fas fa-envelope"></i>
-                <h4>Mail</h4>
-                <p>communitysciencemuseum@mail.com</p>
-                <i class="fas fa-copy"></i>
-            </div>
+            <span class="response-booking"></span>
         </div>
     </main>
     <footer>
